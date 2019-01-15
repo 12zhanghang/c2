@@ -39,6 +39,16 @@ int main()
             scanf("%c",&x);
         }
             if (code == 3)
+            {
+            printf("souyouminganciruxia\n");
+            for(int i=0; i<index; i++)
+            {
+                printf("第%d个敏感词字符为%c\n",i+1,arr[i]);
+            }
+            printf("shanchuchenggong,fianjijixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);}
                 if (code == 4)
                     if (code == 5)
                         break;
