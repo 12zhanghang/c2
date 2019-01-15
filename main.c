@@ -31,9 +31,12 @@ int main()
         }
         if (code == 2)
         {
-            //printf("shanchuzuihuoyigeminganzifu\n");
-            //index--;
-            //printf("shanchuchenggong,dianji")
+            printf("shanchuzuihuoyigeminganzifu\n");
+            index--;
+            printf("shanchuchenggong,dianji");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
             if (code == 3)
                 if (code == 4)
