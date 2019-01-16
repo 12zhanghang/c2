@@ -1,7 +1,8 @@
 #include <stdio.h>
 char arr[1024];
 int index = 0;
-int ismingan(char x){
+int ismingan(char x)
+{
     int count=0;
     for(int i=0;i<index;i++)
 
@@ -10,13 +11,13 @@ int ismingan(char x){
         count++;
     }
 
-if(count==0)
-{
-    return 0;
-}
-else{
-        return 1;
+    if(count==0)
+    {
+        return 0;
     }
+    else{
+            return 1;
+        }
 }
 int main()
 {
@@ -87,8 +88,10 @@ int main()
                 scanf("%c",&enter);
                 }
                     if (code == 5){
-
-                    }
+                        printf("tuichu\n");
                         break;
+                    }
+                        
     }
+    return 0;
 }
